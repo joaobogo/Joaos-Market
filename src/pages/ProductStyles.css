@@ -1,0 +1,35 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    border: rgb(0, 0, 0) solid;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.buttons{
+display: flex;
+padding: 5px;
+}
+
+.buttons nav{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+}
+
+
+.product img {
+    width: 150px;
+    margin-bottom: 15px;
+}

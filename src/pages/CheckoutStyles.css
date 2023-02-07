@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+}
+
+.checkout{
+    margin: 15px;
+}
+
+.item{
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    line-height: 40%;
+    width: 50%;
+    background-color:  rgb(177, 227, 177);
+}
+
+.price{
+    border: solid black;
+    width: 15%;
+    background-color:  rgb(58, 211, 58);
+    display: flex;
+    justify-content: center;
+}
